@@ -8,15 +8,15 @@ description: >
 
 # Clarifying the idea
 
-Turn the user's words into `pitches/<slug>/brief.md`. Read `skills/pitching-an-idea/references/claim-rules.md` and `skills/pitching-an-idea/references/artifact-layout.md` first.
+Turn the user's words into `pitches/<slug>/brief.md`. Read `skills/pitching-an-idea/references/claim-rules.md`, `skills/pitching-an-idea/references/genres.md`, and `skills/pitching-an-idea/references/artifact-layout.md` first. If there is no customer and no job, stop and follow `mining-pains`.
 
 ## Required
 
-customer, current behavior, job, constraint, audience. Audience is one of: investor, cofounder, customer, grant.
+customer, current behavior, job, constraint, audience, genre, reach. Audience is one of: investor, cofounder, customer, grant. Genre is one name from `genres.md`. Reach is `already-in-the-room`, `can-be-introduced`, or `starting-from-zero`.
 
 A customer is specific when you could find them in a place they already are: a role, a shop, a clinic, a team. "Lonely people", "consumers", "SMBs", "founders", "students", "everyone" are not specific. A job is specific when it is something they already try to finish. "Use the app" and "feel better" are not.
 
-If a required field has no answer yet, ask one question and wait. Ask the first gap in this order: customer, current behavior, job, constraint, audience. Do not write the file yet. Do not interview them with a form. Do not invent a customer, a price, or a team.
+If a required field has no answer yet, ask one question and wait. Ask the first gap in this order: customer, current behavior, job, constraint, audience, genre, reach. Do not write the file yet. Do not interview them with a form. Do not invent a customer, a price, or a team.
 
 If every required field has an answer, but the customer or the job fails the test above, still write the brief and set `Specific enough: no`. Ideation handles that. Do not keep asking until they invent a niche.
 
@@ -29,6 +29,8 @@ Questions that earn a field:
 - Job: "What were they trying to get done?"
 - Constraint: "What limit should the pitch respect: time, money, skills, or place?"
 - Audience: "Who is this pitch for: an investor, a cofounder, a customer, or a grant?"
+- Genre: "Which kind of company is this: vertical software, a developer tool, a marketplace, a consumer app, services first, regulated, local, or deep tech?"
+- Reach: "Can you reach this person because you are already in their room, because someone can introduce you, or because you are starting from zero?"
 
 ## Write the brief
 
@@ -44,6 +46,8 @@ Use this shape. Keep a field they stated in their words. Tag a field you inferre
 - Job:
 - Constraint:
 - Audience: investor | cofounder | customer | grant
+- Genre: one name from genres.md
+- Reach: already-in-the-room | can-be-introduced | starting-from-zero
 - Specific enough: yes | no
 - Stage: idea | building | launched
 - Traction: founder FACT, or UNKNOWN

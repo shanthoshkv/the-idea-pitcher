@@ -2,9 +2,9 @@
 name: pitching-an-idea
 description: >
   Use when the user wants to pitch a startup or idea, test whether an idea
-  is ready to pitch, or mentions a pitch deck, investor pitch, startup idea,
-  or "help me pitch". Also use when they want market research and a hard
-  critique before any pitch is written.
+  is ready to pitch, find people to talk to, or mentions a pitch deck,
+  investor pitch, startup idea, or "help me pitch". Also use when they
+  have no idea yet, or they paste notes from a real conversation.
 ---
 
 # Pitching an idea
@@ -17,46 +17,54 @@ Plugin root: the directory that contains `.claude-plugin/plugin.json`. Read thes
 - `skills/pitching-an-idea/references/artifact-layout.md`
 - `skills/pitching-an-idea/references/pitch-shapes.md`
 
-Also read the skill for the step you are in: `clarifying-the-idea`, `ideating-variants`, `researching-the-market`, `criticizing-the-pitch`, `drafting-the-pitch`.
+Also read the skill for the step you are in: `mining-pains`, `clarifying-the-idea`, `ideating-variants`, `researching-the-market`, `finding-people`, `criticizing-the-pitch`, `approaching-people`, `drafting-the-pitch`, `debriefing-conversations`.
 
 ## Checklist
 
 Copy this and keep it current:
 
 ```
-- [ ] 1. Brief written
+- [ ] 0. No idea: pains.md written and the user picked. Skip if they already have an idea.
+- [ ] 1. Brief written, with genre and reach
 - [ ] 2. Ideation skipped, or variants.md written and the user picked
-- [ ] 3. scene.md and competition.md written from live search
+- [ ] 3. scene.md, competition.md, and people.md written from live search
 - [ ] 4. research.md merged, no new numbers
-- [ ] 5. critique.md written by the critic agent
+- [ ] 5. critique.md written, with a pass/fail test
 - [ ] 6. Verdict shown, and the user answered
-- [ ] 7. spoken.md, memo.md, deck-outline.md
-- [ ] 8. draft-critique.md
-- [ ] 9. revision.md, originals kept
+- [ ] 7. approach.md written, and nothing sent
+- [ ] 8. Draft only if the gate allows it
+- [ ] 9. draft-critique.md and revision.md when a draft exists
+- [ ] 10. debrief.md only after the user pastes real notes
 ```
 
 ## Steps
 
-**1. Clarify.** Follow `clarifying-the-idea`. Do not research yet. Required in `brief.md`: customer, current behavior, job, constraint, audience. If one is missing, ask one question and wait. Do not invent a customer.
+**0. No idea.** If the user has no customer and no job, follow `mining-pains`. Stop until they pick a candidate. Then continue at step 1 from that candidate. Skip this step when they already have an idea.
+
+**1. Clarify.** Follow `clarifying-the-idea`. Do not research yet. Required in `brief.md`: customer, current behavior, job, constraint, audience, genre, reach. If one is missing, ask one question and wait. Do not invent a customer.
 
 **2. Ideate only when** the user asked for variants, or `brief.md` says `Specific enough: no`. Follow `ideating-variants`. Stop until the user picks one variant. Then update `brief.md` to that variant and set `Specific enough` again. If it says yes, skip this step.
 
-**3. Research.** Dispatch `scene-researcher` and `competition-researcher` in parallel (plugin agents `idea-pitcher:scene-researcher` and `idea-pitcher:competition-researcher`). Give each the brief path and nothing else to go on. They must search the live web. If you have no subagent tool, do the two jobs yourself, sequentially, say they were not isolated, and still write both files. If web search is unavailable, stop. Write that research did not happen. Do not fill the gap from memory.
+**3. Research.** Dispatch `scene-researcher`, `competition-researcher`, and `people-mapper` in parallel (plugin agents `idea-pitcher:scene-researcher`, `idea-pitcher:competition-researcher`, and `idea-pitcher:people-mapper`). Give each the brief path and nothing else to go on. They must search the live web. If you have no subagent tool, do the three jobs yourself, sequentially, say they were not isolated, and still write the three files. If web search is unavailable, stop. Write that research did not happen. Do not fill the gap from memory.
 
 **4. Merge.** Write `research.md` as `artifact-layout.md` describes. Copy. Do not add numbers.
 
-**5. Critic, pass one.** Dispatch `pitch-critic` (`idea-pitcher:pitch-critic`) with only the paths to `brief.md`, `scene.md`, `competition.md`, and `research.md`. Task: idea pass. It writes `critique.md`. If you have no subagent tool, follow `criticizing-the-pitch` in a fresh pass that quotes files and does not reuse your earlier cheer.
+**5. Critic, pass one.** Dispatch `pitch-critic` (`idea-pitcher:pitch-critic`) with only the paths to `brief.md`, `scene.md`, `competition.md`, `people.md`, and `research.md`. Task: idea pass. It writes `critique.md`, including the pass/fail test. If you have no subagent tool, follow `criticizing-the-pitch` in a fresh pass that quotes files and does not reuse your earlier cheer.
 
-**6. Gate.** Show the verdict line, the strongest objection, and the cheapest test. Then wait.
+**6. Gate.** Show the verdict line, the strongest objection, and the Pass and Fail lines.
 
-- `pitch` or `pitch-with-caveats`: ask which artifacts they want. Default, if they say continue, is all three.
-- `do-not-pitch-yet`: do not draft. Offer the test, a pivot back to ideation, or stop. Draft only if they explicitly say to draft anyway. The draft then opens with: "Draft over an untested idea. Verdict was do-not-pitch-yet."
+**7. Approach.** Follow `approaching-people` and write `approach.md` before you wait. Do this for every verdict, including `do-not-pitch-yet`. Do not send anything. Then wait.
 
-**7. Draft.** Follow `drafting-the-pitch` and `pitch-shapes.md`.
+- `pitch` or `pitch-with-caveats`: ask which drafts they want. Default, if they say continue, is all three.
+- `do-not-pitch-yet`: do not draft. The approach file is the next step. Draft only if they explicitly say to draft anyway. The draft then opens with: "Draft over an untested idea. Verdict was do-not-pitch-yet."
 
-**8. Critic, pass two.** Same critic agent, new task, draft pass. Input is the three drafts plus `brief.md` and `research.md`. It writes `draft-critique.md`.
+**8. Draft.** Follow `drafting-the-pitch` and `pitch-shapes.md` only when the gate allows it.
 
-**9. Revise once.** Follow the revision section of `drafting-the-pitch`. Stop. Do not run a third critic loop.
+**9. Critic, pass two.** Same critic agent, new task, draft pass. Input is the three drafts plus `brief.md` and `research.md`. It writes `draft-critique.md`. Skip this step when no draft was written.
+
+**10. Revise once** when a draft exists. Follow the revision section of `drafting-the-pitch`. Do not run a third critic loop.
+
+**11. Debrief later.** When the user pastes notes from a real conversation, follow `debriefing-conversations`. Do not ask them to pretend the conversations already happened.
 
 ## Rationalizations
 
@@ -68,3 +76,6 @@ Copy this and keep it current:
 | No competitors come to mind | That is a search you have not run. |
 | The critique is harsh | Leave the verdict. Show it. |
 | Research failed, I will sketch the scene | Stop and say research did not happen. |
+| I know a good community for them | A room needs a URL from this search. Otherwise UNKNOWN. |
+| Email all of them | One unsent note in `approach.md`. No address list. |
+| The calls can wait until after the deck | `approach.md` is written at the gate. The calls are the test. |

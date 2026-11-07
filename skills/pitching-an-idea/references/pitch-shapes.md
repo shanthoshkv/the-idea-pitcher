@@ -11,6 +11,8 @@ Read `audience` from the brief. Same facts, different front door. If `audience` 
 
 Facts come from `brief.md`, `research.md`, and `critique.md`. If a number is not tagged there, omit it or mark it UNKNOWN.
 
+Read `genres.md`. The problem and competition sections answer the proof line for the genre on the brief.
+
 ## Spoken
 
 Michael Seibel's seven questions, in this order. At most two sentences each. Traction of zero is said as zero.

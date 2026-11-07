@@ -29,7 +29,9 @@ A weakness needs a review, a doc, a pricing page, or the founder's own experienc
 
 ## Interviews
 
-Never claim customers were interviewed. You may list questions for the founder to ask a real person.
+A conversation is a FACT only when the founder pasted the notes and said it happened. Name the person as they named them, and the date they gave. You did not conduct the interview.
+
+If they did not paste notes, do not write a conversation file. You may still list questions for them to ask.
 
 ## Thin evidence
 

@@ -10,17 +10,22 @@ kebab-case, two to five words, taken from the idea. If `pitches/<slug>/` exists,
 
 | File | Writer | When |
 | --- | --- | --- |
-| brief.md | clarifying-the-idea | Before any research |
+| pains.md | mining-pains | Only when the founder has no idea yet |
+| brief.md | clarifying-the-idea | Before any research. Debrief may append a section. |
 | variants.md | ideating-variants | Only if ideation runs |
 | scene.md | scene-researcher | Research step |
 | competition.md | competition-researcher | Research step |
-| research.md | pitching-an-idea | After both research files exist. Merge only. No new numbers. |
-| critique.md | pitch-critic | Pass one, on the idea |
-| spoken.md | drafting-the-pitch | After the human gate |
-| memo.md | drafting-the-pitch | After the human gate |
-| deck-outline.md | drafting-the-pitch | After the human gate |
+| people.md | people-mapper | Research step. No new market numbers. |
+| research.md | pitching-an-idea | After scene and competition exist. Merge only. No new numbers. |
+| critique.md | pitch-critic | Pass one, on the idea. Includes the pass/fail test. |
+| approach.md | approaching-people | After the critique. Nothing in it is sent. |
+| spoken.md | drafting-the-pitch | After the human gate, when a draft is allowed |
+| memo.md | drafting-the-pitch | After the human gate, when a draft is allowed |
+| deck-outline.md | drafting-the-pitch | After the human gate, when a draft is allowed |
 | draft-critique.md | pitch-critic | Pass two, on the drafts |
 | revision.md | drafting-the-pitch | After pass two. Original drafts stay. |
+| conversations/<person>.md | debriefing-conversations | Only from notes the founder pasted |
+| debrief.md | debriefing-conversations | After at least one conversation file |
 
 ## research.md
 

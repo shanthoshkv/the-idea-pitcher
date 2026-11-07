@@ -44,4 +44,4 @@ Waiting on the user. Do not mark a winner.
 
 Stop. Ask the user which variant to carry forward. Do not pick. Do not research in this step.
 
-When they pick, update `brief.md` so customer, job, and idea match that variant. Leave the other variants in the file.
+When they pick, update `brief.md` so customer, job, and idea match that variant. Keep genre and reach unless the variant changed them. Leave the other variants in the file.
