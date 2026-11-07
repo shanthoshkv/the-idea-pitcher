@@ -17,8 +17,11 @@ kebab-case, two to five words, taken from the idea. If `pitches/<slug>/` exists,
 | competition.md | competition-researcher | Research step |
 | people.md | people-mapper | Research step. No new market numbers. |
 | research.md | pitching-an-idea | After scene and competition exist. Merge only. No new numbers. |
+| positioning.md | positioning-the-offer | After competition.md. No new competitors. |
+| failure-check.md | checking-how-this-dies | Before the idea critique. No score. |
 | critique.md | pitch-critic | Pass one, on the idea. Includes the pass/fail test. |
 | approach.md | approaching-people | After the critique. Nothing in it is sent. |
+| experiment.md | testing-the-idea | After approach.md. Nothing is built or sent. |
 | spoken.md | drafting-the-pitch | After the human gate, when a draft is allowed |
 | memo.md | drafting-the-pitch | After the human gate, when a draft is allowed |
 | deck-outline.md | drafting-the-pitch | After the human gate, when a draft is allowed |

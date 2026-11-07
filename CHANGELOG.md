@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 - 2026-11-07
+
+- A pretotype plan that counts an action, and does not count a survey.
+- Positioning in a fixed order: alternatives, difference, value, who cares, category.
+- A six-pattern failure check with no score.
+- Source files for the two readings we can keep, and notes for the rest.
+
 ## 0.2.0 - 2026-11-07
 
 - Eight genres, with a different proof and a different test for each.

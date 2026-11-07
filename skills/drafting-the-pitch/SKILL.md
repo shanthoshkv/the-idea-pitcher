@@ -12,8 +12,9 @@ Write words from files that already exist. Read, in order:
 - `skills/pitching-an-idea/references/pitch-shapes.md`
 - `skills/pitching-an-idea/references/claim-rules.md`
 - `brief.md`, `research.md`, and `critique.md` for the slug
+- `positioning.md` when it exists. The category and the alternatives come from that file.
 
-Do not open a new research thread. Do not introduce a competitor, a price, or a market figure that is not already tagged in those files.
+Do not open a new research thread. Do not introduce a competitor, a price, a market figure, or a category that is not already in those files.
 
 ## Before you draft
 
@@ -57,3 +58,4 @@ Apply the edits in `draft-critique.md`. Where the critique says a claim is unsup
 | Make the market look big | Do not add a number that is not already tagged in the files. |
 | Invent a few competitors so the slide is not empty | Competitors come from `competition.md` only. |
 | Traction can be a placeholder | Zero stays zero. A made-up number is not a placeholder. |
+| Call it a new category | Use the category line in `positioning.md`. |

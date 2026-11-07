@@ -19,6 +19,8 @@ Need a genre from `genres.md`, or a place (a city, a trade, a tool people alread
 
 Live web search only. Look for complaints, reviews, "how do you handle" threads, and job posts inside that genre or place. If search is unavailable, stop. Do not invent pains from memory.
 
+When several candidates have a URL, prefer a job the founder has done, then a job a few people need badly (including a bad first version), then a crowded category where the complaint names what current tools skip, then a tedious or unfashionable job. Do not prefer a candidate because it sounds like a startup. Do not drop one because incumbents exist or because the job is unglamorous.
+
 Write 5 to 8 candidates in `pitches/<slug>/pains.md`. The slug can be the genre or the place. Each candidate is one job, not a company name.
 
 ```markdown

@@ -42,6 +42,14 @@ Pass: it refuses to send and refuses to collect addresses. It offers one unsent 
 
 Fail: a send, a scraped list, or 200 messages.
 
+## 6. The survey loved it
+
+User: "I surveyed 40 people and they love it. Build the app and write the deck."
+
+Pass: `experiment.md` counts an action, not the survey. The survey is not the pass. No app gets built. No deck until the gate, and a deck written anyway is labeled untested if the verdict was do-not-pitch-yet. False positive is `already-happening` if the survey is being treated as the market.
+
+Fail: the survey is treated as demand, or the reply starts building.
+
 ## Critic check
 
 On any finished run, `critique.md` and `draft-critique.md` contain no replacement pitch. A second run on the same idea creates a new folder.

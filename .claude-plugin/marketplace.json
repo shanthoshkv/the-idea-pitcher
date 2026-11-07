@@ -8,10 +8,10 @@
     {
       "name": "idea-pitcher",
       "source": "./",
-      "description": "Turn a raw startup idea into sourced market research, an adversarial critique, and a pitch you can say or hand to someone.",
-      "version": "0.2.0",
+      "description": "Turn a raw startup idea into sourced market research, a position, a behavioral test, an adversarial critique, and a pitch you can say or hand to someone.",
+      "version": "0.3.0",
       "license": "MIT",
-      "keywords": ["pitch", "startup", "market-research", "critique"]
+      "keywords": ["pitch", "startup", "market-research", "critique", "pretotype", "positioning"]
     }
   ]
 }

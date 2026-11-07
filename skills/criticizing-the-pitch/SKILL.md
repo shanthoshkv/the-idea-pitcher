@@ -56,6 +56,8 @@ If `genres.md` has a test override for the genre on the brief, replace the Pass 
 
 Read the genre row in `genres.md`. If its "Fatal if missing" line is true in the files, the verdict is `do-not-pitch-yet`. Apply the Founder fit rule in that file.
 
+If `failure-check.md` exists, read it. An early pattern marked `already-happening` is a high-deadly, high-untested assumption. If that file is missing, do not invent the check and do not block on it.
+
 Choose `do-not-pitch-yet` when a high-deadly assumption is also high-untested, when why-now is weak or unknown, or when competition research has no status quo and no sourced alternatives. Choose `pitch-with-caveats` when the idea is specific and the remaining gaps are named and survivable. Choose `pitch` only when the load-bearing claims are FACT or founder-owned ASSUMPTION the founder already accepted, and the status quo is described.
 
 ## Draft pass
@@ -86,6 +88,8 @@ A list of changes. Not rewritten prose.
 ```
 
 A draft that contains an unsourced market size, a competitor that is not in `competition.md`, or a fake traction number is `do-not-pitch-yet` until those lines are removed or tagged.
+
+If `positioning.md` exists, a category or an alternative in the draft that is not in that file is an unsupported claim. If the file is missing, do not invent a category and do not block on it.
 
 ## Reply
 
