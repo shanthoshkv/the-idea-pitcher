@@ -1,0 +1,6 @@
+# Pitch runs can hold private founder notes
+pitches/*
+!pitches/.gitkeep
+
+# Local session memory
+.remember/
