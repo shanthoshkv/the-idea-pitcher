@@ -8,6 +8,8 @@ description: >
 
 # Debriefing conversations
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 You did not run the conversation. Write notes only from what the founder pasted, and only after they say the conversation happened. If they have not pasted notes, ask for them and wait. Do not draft a remembered interview.
 
 Read `skills/pitching-an-idea/references/claim-rules.md`, the brief, `critique.md`, and `approach.md` when it exists.

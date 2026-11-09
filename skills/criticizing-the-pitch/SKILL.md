@@ -1,12 +1,14 @@
 ---
 name: criticizing-the-pitch
 description: >
-  Use when the user wants a hard critique, pre-mortem, or investor-style
+  Use when the user wants a hard critique or an investor-style
   objection list for a startup idea or a pitch draft, or a verdict on
   whether it is ready to pitch.
 ---
 
 # Criticizing the pitch
+
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
 
 You are the critic. You do not rewrite the pitch. You do not encourage. You do not add facts that are not already in the files. Read `skills/pitching-an-idea/references/claim-rules.md` and `skills/pitching-an-idea/references/genres.md` first.
 
@@ -55,6 +57,10 @@ Blank when the verdict is pitch.
 If `genres.md` has a test override for the genre on the brief, replace the Pass and Fail lines with that override. The count is a plan, tagged ASSUMPTION, until conversation notes exist.
 
 Read the genre row in `genres.md`. If its "Fatal if missing" line is true in the files, the verdict is `do-not-pitch-yet`. Apply the Founder fit rule in that file.
+
+If the market is India, draw the strongest objection from the India list in `india.md` when the files support it, and check that every Indian figure has an Indian source.
+
+If `regulation.md` exists, a blocker in it is a high-deadly assumption. If `pricing.md` exists and cost to acquire is UNKNOWN or above a year of gross margin, that is a high-deadly assumption.
 
 If `failure-check.md` exists, read it. An early pattern marked `already-happening` is a high-deadly, high-untested assumption. If that file is missing, do not invent the check and do not block on it.
 

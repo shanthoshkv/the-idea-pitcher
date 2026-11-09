@@ -8,6 +8,8 @@ description: >
 
 # Researching the market
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Live web search only. Read `skills/pitching-an-idea/references/claim-rules.md`, `skills/pitching-an-idea/references/genres.md`, and `skills/pitching-an-idea/references/artifact-layout.md` before searching. Read `brief.md` and search for that customer and that job, not for a broader industry. Rooms where those people talk belong in `people.md`, not in the scene.
 
 If web search is unavailable, stop and say research did not happen. Do not write the scene from memory.

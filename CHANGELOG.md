@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.0 - 2026-11-09
+
+- India by default: `india.md` with rupee format, Indian sources, regulators, customer splits, schemes, and Indian investor objections.
+- Five India-first genres: d2c-brand, distribution-b2b, edtech-coaching, agritech, saas-from-india.
+- New skills: pricing-and-unit-economics, checking-regulation, rehearsing-qa, localizing-the-message, finding-investors.
+- Incubator audience, angel one-pager, grant or scheme application, and shark-tank style pitch.
+- Bottom-up ₹ market math template in research.md.
+- Quick run for founders short on time.
+- Fixed: checklist and step numbers now match. "Pre-mortem" now triggers only the failure check.
+- Every skill and agent says where the plugin root is.
+
 ## 0.3.0 - 2026-11-07
 
 - A pretotype plan that counts an action, and does not count a survey.

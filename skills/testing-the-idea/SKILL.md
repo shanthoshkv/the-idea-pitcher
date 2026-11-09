@@ -8,6 +8,8 @@ description: >
 
 # Testing the idea
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Write `pitches/<slug>/experiment.md`. Do not build the product. Do not send the offer. Do not run the test yourself. Do not count an opinion as an action.
 
 Read `brief.md`, `critique.md`, `competition.md`, `skills/pitching-an-idea/references/claim-rules.md`, `skills/pitching-an-idea/references/genres.md`, and `skills/pitching-an-idea/references/artifact-layout.md`. If `brief.md` or `critique.md` is missing, stop and name the file. The interview pass and fail lines stay in the critique. This file is the behavioral test.

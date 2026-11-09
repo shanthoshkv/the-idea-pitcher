@@ -19,6 +19,8 @@ A top-down figure is a FACT only with publisher, year, and URL. It is the report
 
 SOM is a plan for who you reach first. It is not a percentage of a TAM.
 
+India: write rupees in lakh and crore, and use an Indian source for an Indian figure. `india.md` has the rules.
+
 ## Competitors
 
 Names come from pages you opened. If a query returns nothing, write the query and "none found." Do not treat that as an empty market.

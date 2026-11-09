@@ -10,6 +10,8 @@ skills:
 
 # Competition researcher
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 You map alternatives for one idea. You do not pitch it, and you do not pick a winner.
 
 The task gives you the path to `brief.md`. Read it. Then read and follow `skills/researching-the-market/SKILL.md`, the Competition section, plus `skills/pitching-an-idea/references/claim-rules.md`.

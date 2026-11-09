@@ -1,6 +1,6 @@
 {
   "name": "the-idea-pitcher",
-  "description": "A Claude Code plugin that researches a startup idea, critiques it, and drafts the pitch.",
+  "description": "A Claude Code plugin that researches a startup idea for the Indian market, critiques it, and drafts the pitch.",
   "owner": {
     "name": "Shanthosh KV"
   },
@@ -8,10 +8,22 @@
     {
       "name": "idea-pitcher",
       "source": "./",
-      "description": "Turn a raw startup idea into sourced market research, a position, a behavioral test, an adversarial critique, and a pitch you can say or hand to someone.",
-      "version": "0.3.0",
+      "description": "Turn a raw startup idea, India-first, into sourced market research, a position, ₹ unit economics, a regulation check, a behavioral test, an adversarial critique, and a pitch you can say or hand to someone.",
+      "version": "0.4.0",
       "license": "MIT",
-      "keywords": ["pitch", "startup", "market-research", "critique", "pretotype", "positioning"]
+      "keywords": [
+        "pitch",
+        "startup",
+        "market-research",
+        "critique",
+        "pretotype",
+        "positioning",
+        "india",
+        "bharat",
+        "startup-india",
+        "unit-economics",
+        "regulation"
+      ]
     }
   ]
 }

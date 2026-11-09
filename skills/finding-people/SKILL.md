@@ -7,6 +7,8 @@ description: >
 
 # Finding people
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Write `pitches/<slug>/people.md`. Read the brief, `skills/pitching-an-idea/references/genres.md`, `skills/pitching-an-idea/references/claim-rules.md`, and `skills/pitching-an-idea/references/artifact-layout.md`.
 
 Search the live web for rooms where this brief's customer already talks about this job. Use the genre row as a search hint. Do not paste a standing list of communities. A room without a URL you opened is UNKNOWN.

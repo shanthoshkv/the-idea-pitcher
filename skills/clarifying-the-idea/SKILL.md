@@ -8,13 +8,17 @@ description: >
 
 # Clarifying the idea
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Turn the user's words into `pitches/<slug>/brief.md`. Read `skills/pitching-an-idea/references/claim-rules.md`, `skills/pitching-an-idea/references/genres.md`, and `skills/pitching-an-idea/references/artifact-layout.md` first. If there is no customer and no job, stop and follow `mining-pains`.
 
 ## Required
 
-customer, current behavior, job, constraint, audience, genre, reach. Audience is one of: investor, cofounder, customer, grant. Genre is one name from `genres.md`. Reach is `already-in-the-room`, `can-be-introduced`, or `starting-from-zero`.
+customer, current behavior, job, constraint, audience, genre, reach. Audience is one of: investor, cofounder, customer, grant, incubator. Genre is one name from `genres.md`. Reach is `already-in-the-room`, `can-be-introduced`, or `starting-from-zero`.
 
 A customer is specific when you could find them in a place they already are: a role, a shop, a clinic, a team. "Lonely people", "consumers", "SMBs", "founders", "students", "everyone" are not specific. A job is specific when it is something they already try to finish. "Use the app" and "feel better" are not.
+
+Market defaults to India. Write the city or state and the tier, and at least one more split from `india.md` (language, payment, device, channel). If the founder names another country, use it and skip `india.md`.
 
 If a required field has no answer yet, ask one question and wait. Ask the first gap in this order: customer, current behavior, job, constraint, audience, genre, reach. Do not write the file yet. Do not interview them with a form. Do not invent a customer, a price, or a team.
 
@@ -28,8 +32,8 @@ Questions that earn a field:
 - Current behavior: "What did they do the last time it happened?"
 - Job: "What were they trying to get done?"
 - Constraint: "What limit should the pitch respect: time, money, skills, or place?"
-- Audience: "Who is this pitch for: an investor, a cofounder, a customer, or a grant?"
-- Genre: "Which kind of company is this: vertical software, a developer tool, a marketplace, a consumer app, services first, regulated, local, or deep tech?"
+- Audience: "Who is this pitch for: an investor, a cofounder, a customer, a grant, or an incubator?"
+- Genre: "Which kind of company is this: vertical software, a developer tool, a marketplace, a consumer app, services first, regulated, local, deep tech, a D2C brand, B2B distribution, edtech or coaching, agritech, or SaaS sold abroad from India?"
 - Reach: "Can you reach this person because you are already in their room, because someone can introduce you, or because you are starting from zero?"
 
 ## Write the brief
@@ -45,7 +49,9 @@ Use this shape. Keep a field they stated in their words. Tag a field you inferre
 - Current behavior:
 - Job:
 - Constraint:
-- Audience: investor | cofounder | customer | grant
+- Market: India, <city or state>, <tier> | another country
+- Splits: language, payment, device, channel from india.md
+- Audience: investor | cofounder | customer | grant | incubator
 - Genre: one name from genres.md
 - Reach: already-in-the-room | can-be-introduced | starting-from-zero
 - Specific enough: yes | no

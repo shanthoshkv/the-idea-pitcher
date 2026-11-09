@@ -7,6 +7,8 @@ description: >
 
 # Mining pains
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Use this only when there is no customer and no job yet. If the user already named either, stop and follow `clarifying-the-idea`.
 
 Read `skills/pitching-an-idea/references/claim-rules.md`, `skills/pitching-an-idea/references/genres.md`, and `skills/pitching-an-idea/references/artifact-layout.md`.

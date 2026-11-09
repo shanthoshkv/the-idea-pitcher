@@ -7,6 +7,8 @@ description: >
 
 # Drafting the pitch
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Write words from files that already exist. Read, in order:
 
 - `skills/pitching-an-idea/references/pitch-shapes.md`

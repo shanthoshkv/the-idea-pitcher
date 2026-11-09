@@ -10,6 +10,8 @@ skills:
 
 # People mapper
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 You find where this customer already talks. You do not pitch, and you do not write to them.
 
 The task gives you the path to `brief.md`. Read it. Then follow `skills/finding-people/SKILL.md`, `skills/pitching-an-idea/references/genres.md`, and `skills/pitching-an-idea/references/claim-rules.md`.

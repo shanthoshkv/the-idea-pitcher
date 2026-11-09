@@ -1,13 +1,25 @@
 {
   "name": "idea-pitcher",
   "displayName": "Idea Pitcher",
-  "version": "0.3.0",
-  "description": "Turn a raw startup idea into sourced market research, a position, a behavioral test, an adversarial critique, and a pitch you can say or hand to someone.",
+  "version": "0.4.0",
+  "description": "Turn a raw startup idea, India-first, into sourced market research, a position, ₹ unit economics, a regulation check, a behavioral test, an adversarial critique, and a pitch you can say or hand to someone.",
   "author": {
     "name": "Shanthosh KV"
   },
   "license": "MIT",
   "repository": "https://github.com/shanthoshkv/the-idea-pitcher",
   "homepage": "https://github.com/shanthoshkv/the-idea-pitcher",
-  "keywords": ["pitch", "startup", "market-research", "critique", "pretotype", "positioning"]
+  "keywords": [
+    "pitch",
+    "startup",
+    "market-research",
+    "critique",
+    "pretotype",
+    "positioning",
+    "india",
+    "bharat",
+    "startup-india",
+    "unit-economics",
+    "regulation"
+  ]
 }

@@ -8,6 +8,8 @@ description: >
 
 # Approaching people
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Write `pitches/<slug>/approach.md`. Do not send email, DMs, or posts. Do not scrape addresses. Do not produce a list of recipients.
 
 Read `brief.md`, `people.md`, `critique.md`, `skills/pitching-an-idea/references/claim-rules.md`, and `skills/pitching-an-idea/references/genres.md`. If `people.md` or `critique.md` is missing, stop and name the missing file.

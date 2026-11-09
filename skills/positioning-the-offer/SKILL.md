@@ -7,6 +7,8 @@ description: >
 
 # Positioning the offer
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Write `pitches/<slug>/positioning.md`. Do not draft the pitch here. Do not invent a competitor or a market size.
 
 Read `brief.md`, `competition.md`, `skills/pitching-an-idea/references/claim-rules.md`, and `skills/pitching-an-idea/references/artifact-layout.md`. If `competition.md` is missing, stop. The alternatives live there.

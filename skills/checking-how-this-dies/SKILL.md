@@ -8,6 +8,8 @@ description: >
 
 # Checking how this dies
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Write `pitches/<slug>/failure-check.md`. Do not score. Do not rewrite the pitch. Do not add a fact that is not already in the files.
 
 Read `brief.md`, and whatever else of these exists: `competition.md`, `people.md`, `research.md`, `critique.md`, `experiment.md`. Read `skills/pitching-an-idea/references/claim-rules.md` and `skills/pitching-an-idea/references/artifact-layout.md`. If `brief.md` is missing, stop.

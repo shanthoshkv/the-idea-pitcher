@@ -8,6 +8,8 @@ description: >
 
 # Ideating variants
 
+Paths are from the plugin root: the directory that contains `.claude-plugin/plugin.json`. When the brief's market is India (the default), also read `skills/pitching-an-idea/references/india.md`.
+
 Use this when the user asked for variants, or `brief.md` says `Specific enough: no`. If it says yes and they did not ask for variants, do not ideate. Say you are skipping it.
 
 Read the brief, `skills/pitching-an-idea/references/claim-rules.md`, and `skills/pitching-an-idea/references/artifact-layout.md`.
