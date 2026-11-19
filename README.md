@@ -1,6 +1,16 @@
 # Idea Pitcher
 
-A Claude Code plugin that turns a raw startup idea into three things: sourced market research, an adversarial critique, and a pitch you can say or hand to someone.
+Claude Code plugin that turns a raw startup idea into sourced market research, an adversarial critique, and a pitch.
+
+![demo](docs/demo.gif)
+
+```
+/plugin marketplace add shanthoshkv/the-idea-pitcher
+/plugin install idea-pitcher@the-idea-pitcher
+```
+
+Then restart Claude Code.
+
 
 It is built for the Indian market first. Rupees in lakh and crore, Indian sources for Indian numbers, Tier 1 to Tier 3 splits, Indian regulators, and Indian schemes and incubators. Name another country on the brief and it uses that instead.
 
